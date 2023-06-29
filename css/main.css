@@ -940,7 +940,7 @@ height: 40px;
   text-decoration: underline;
 }
 /* 박스마다 크기조정 */
-.news-box .news-info h3 {
+.news-info h3 {
   width: 122px;
   height: 21px;
   margin: 15px;
@@ -948,14 +948,14 @@ height: 40px;
   font-weight: bold;
   font-family: "Exo", sans-serif;
 }
-.news-box .news-info p {
+.news-info p {
   margin-left: 15px;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.2;
 }
-.headline .news3 {
+.news3 {
   display: flex;
 }
 
@@ -965,23 +965,26 @@ height: 40px;
   height: 600px;
   background-color: #f7f7f7;
 }
-.shop-online .online {
-  width: 100%;
+.online {
+  width: 1320px;
   height: 550px;
   margin: auto;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
   overflow: hidden;
+  
 }
 
 /*shop online 제목 꾸미기  */
-.shop-online .online .shop1 {
-  width: 400px;
+.shop1 {
+  width: 100%;
   height: 27px;
   padding: 10px;
+  display: flex;justify-content: center;align-items: center;
+  
 }
-.shop-online .online .shop1 a {
+.shop1 a {
   position: relative;
   font-size: 26px;
   font-weight: bold;
@@ -989,31 +992,33 @@ height: 40px;
 }
 
 /* 박스하나하나 */
-.shop-online .online .shop2 {
+.shop2 {
   display: flex;
 }
 .shop-box {
-  width: 1320px;
-  height: 391px;
+  width: 1200px;
+  height: 500px;
   margin-right: 14px;
+  margin: auto;
+  
 }
 
 /* 박스에 있는 이미지 */
-.shop-box .shop-info {
+.shop-info {
   width: 316px;
   height: 116px;
   font-size: 17px;
   font-weight: bold;
   font-family: "Noto Sans KR", sans-serif;
   text-align: center;
-  background-color: #ae9050;
+  
 }
-.shop-box .shop-info h3 {
+.shop-info h3 {
   padding-top: 10px;
   font-size: 22px;
   font-weight: bold;
 }
-.shop-box .shop-info .shop-button {
+.shop-button {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -1022,7 +1027,7 @@ height: 40px;
   font-weight: bold;
   margin-top: 10px;
 }
-.shop-box .shop-info .shop-button .btn1 {
+.btn1 {
   width: 125px;
   height: 29px;
   background-color: #fff;
@@ -1031,7 +1036,7 @@ height: 40px;
   box-shadow: 3px 3px 3px 3px gray;
   margin-right: 2px;
 }
-.shop-box .shop-info .shop-button .btn2 {
+.btn2 {
   width: 125px;
   height: 29px;
   background-color: #fff;
@@ -1350,6 +1355,74 @@ footer .footer2 .footer-box1 .right-box ul{width: 200px;display: flex;
               overflow: hidden;
             }
 
+            /* shop online */
+            .online2{width: 900px;margin: auto;}
+            .shop-box2{width: 774px;margin: auto;}
+            .shop-img2{width: 300px;}
+            .shop-img2 img{width: 100%;}
+
+
+            .shop10 {
+              width: 900px;
+              height: 27px;
+              padding: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+            }
+            .shop10 a {
+              position: relative;
+              font-size: 26px;
+              font-weight: bold;
+              font-family: "Noto Sans KR", sans-serif;
+            }
+            .shop-info2 {
+              width: 300px;
+              height: 116px;
+              font-size: 17px;
+              font-weight: bold;
+              font-family: "Noto Sans KR", sans-serif;
+              text-align: center;
+              
+            }
+            .shop-info2 h3 {
+              padding-top: 10px;
+              font-size: 20px;
+              font-weight: bold;
+            }
+            .shop-button2 {
+              display: flex;
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 10px;
+            }
+            .btn3 {
+              width: 125px;
+              height: 29px;
+              background-color: #fff;
+              padding: 10px;
+              color: red;
+              box-shadow: 3px 3px 3px 3px gray;
+              margin-right: 2px;
+              transition: all 0.4s;
+            }
+            .btn3:hover{background-color: #000;}
+            .btn4 {
+              width: 125px;
+              height: 29px;
+              background-color: #fff;
+              padding: 10px;
+              color: #000;
+              box-shadow: 3px 3px 3px 3px gray;
+              transition: all 0.4s;
+            }
+            .btn4:hover{background-color: #000;color: #fff;}
+            
+
 
 }
 /* 모바일 버전 */
@@ -1395,8 +1468,150 @@ header #gnb-pc{display: none;}
     margin-bottom: 10px;width: 400px;height: 341px;margin: auto;}
   .news7 .news-box{width: 400px;margin: auto;}
   .news7 .news-box img{width: 100%;}
-  
 
+  
+            /* shop online */
+            .online3{width: 600px;margin: auto;}
+            .shop-box3{width: 600px;margin: auto;}
+            .shop-img3{width: 250px;}
+            .shop-img3 img{width: 100%;height: 360px;}
+
+
+            .shop20 {
+              width: 600px;
+              height: 27px;
+              padding: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+            }
+            .shop20 a {
+              position: relative;
+              font-size: 24px;
+              font-weight: bold;
+              font-family: "Noto Sans KR", sans-serif;
+            }
+            .shop-info3 {
+              width: 260px;
+              height: 116px;
+              font-size: 17px;
+              font-weight: bold;
+              font-family: "Noto Sans KR", sans-serif;
+              text-align: center;
+              
+            }
+            .shop-info3 h3 {
+              padding-top: 10px;
+              font-size: 20px;
+              font-weight: bold;
+            }
+            .shop-button3 {
+              display: flex;
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 10px;
+            }
+            .btn5 {
+              width: 125px;
+              height: 29px;
+              background-color: #fff;
+              padding: 10px;
+              color: red;
+              box-shadow: 3px 3px 3px 3px gray;
+              margin-right: 2px;
+              transition: all 0.4s;
+            }
+            .btn5:hover{background-color: #000;}
+            .btn6 {
+              width: 125px;
+              height: 29px;
+              background-color: #fff;
+              padding: 10px;
+              color: #000;
+              box-shadow: 3px 3px 3px 3px gray;
+              transition: all 0.4s;
+            }
+            .btn6:hover{background-color: #000;color: #fff;}
+
+            /* 푸터1 */
+  
+            .footer15{width: 100%;margin: auto;}
+            .sponser2{
+              width: 600px;height: 350px;margin: auto;padding-top: 20px;padding-bottom: 20px;
+            }
+            .sponser-box2{display: flex;flex-wrap: wrap;justify-content: space-between;
+              position: relative;height: 361px;
+              align-items: center;
+            }
+            .creative__item2{
+              width: 160px;height: 50px;
+              margin-bottom: 10px;
+              display: flex;align-items: center;justify-content: center;
+                  }
+                  .creative__item2:nth-child(1) ::after{
+                    content: ' ';
+                    position: absolute;
+                    left: 200px;
+                    right: 0px;
+                    height: 340px;
+                    width: 1px;
+                    background: #656363;
+                    top:0px;
+                    background-image: linear-gradient(to bottom, #000 0, transparent 50%), 
+                    linear-gradient(to top, #000 0, transparent 50%);}
+                  
+                  .creative__item2:nth-child(2) ::after{
+                    content: ' ';
+                    position: absolute;
+                    left: 400px;
+                    right: 0px;
+                    height: 340px;
+                    width: 1px;
+                    background: #656363;
+                    top:0px;
+                    background-image: linear-gradient(to bottom, #000 0, transparent 50%), 
+                    linear-gradient(to top, #000 0, transparent 50%);}
+                  .creative__item2:nth-child(3) ::before{
+                    content: ' ';
+                      position: absolute;
+                      left: 0;
+                      height: 1px;
+                      width: 100%;
+                      background: #656363;
+                      bottom: 0;
+                      top: 170px;
+                      background-image: linear-gradient(to right, #000 0, transparent 50%),
+                      linear-gradient(to left, #000 0, transparent 50%);}
+                  
+                  .creative__item2:nth-child(6) ::before{
+                    content: ' ';
+                      position: absolute;
+                      left: 0;
+                      height: 1px;
+                      width: 100%;
+                      background: #656363;
+                      bottom: 0;
+                      top: 340px;
+                      background-image: linear-gradient(to right, #000 0, transparent 50%),
+                      linear-gradient(to left, #000 0, transparent 50%);}
+                  .sponser-box2 li a img{width:100%;}
+                  
+                  .sponser-box2 li:hover a .show{display: none;}
+                  .sponser-box2 li:hover a .hidden{display: inline-block;}
+                  /* sns */
+                  .sns1{width: 100%;height: 200px;background-color: #151515;}
+                  .sns-box{width: 744px;margin: auto;flex-wrap: wrap;}
+                  .all-sns1{display: flex;justify-content: center;align-items: center;width: auto;height: 60px;}
+                  .facebook1{display: flex;width: 400px;height: 60px;justify-content: center;
+                    align-items: center;cursor: pointer;transition: all 0.4s;}
+                    .facebook1:hover{transform: scale(1.1);}
+                    .facebook1 a img{margin-right: 5px;}
+                    .facebook1 a p {color: #fff;font-weight: bold;font-family: 'Exo', sans-serif;}
+                    
 
 
 
